@@ -1,0 +1,89 @@
+local userdata = {
+  ["allowCustomStuff"] = function()
+    return tostring("98218382")
+  end,
+  ["GradColors"] = function()
+    --colorsettings
+    colors = {
+      ["rainbow"] = {
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+        ColorSequenceKeypoint.new(0.1, Color3.fromRGB(255, 30, 30)),
+        ColorSequenceKeypoint.new(0.2, Color3.fromRGB(255, 100, 0)),  
+        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 180, 0)), 
+        ColorSequenceKeypoint.new(0.4, Color3.fromRGB(0, 255, 50)),     
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 255, 255)), 
+        ColorSequenceKeypoint.new(0.6, Color3.fromRGB(0, 160, 255)), 
+        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(0, 95, 255)),  
+        ColorSequenceKeypoint.new(0.8, Color3.fromRGB(255, 0, 255)), 
+        ColorSequenceKeypoint.new(0.9, Color3.fromRGB(255, 50, 255)),   
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 180))   
+        },
+      ["rose"] = {
+        ColorSequenceKeypoint.new(0, Color3.fromHex("500830")),
+        ColorSequenceKeypoint.new(0.1, Color3.fromHex("c43b59")),
+        ColorSequenceKeypoint.new(0.2, Color3.fromHex("f7235b")),  
+        ColorSequenceKeypoint.new(0.5, Color3.fromHex("cf157b")),
+        ColorSequenceKeypoint.new(0.7, Color3.fromHex("de2f8f")),
+        ColorSequenceKeypoint.new(1, Color3.fromHex("e6459d")),
+      },
+      ["blue ice"] = {
+        ColorSequenceKeypoint.new(0, Color3.fromHex("7dafc9")),
+        ColorSequenceKeypoint.new(0.1, Color3.fromHex("8bb4f7")),
+        ColorSequenceKeypoint.new(0.2, Color3.fromHex("70a5fa")),
+        ColorSequenceKeypoint.new(0.3, Color3.fromHex("639cf7")),
+        ColorSequenceKeypoint.new(0.4, Color3.fromHex("4dacc4")),
+        ColorSequenceKeypoint.new(0.5, Color3.fromHex("4d80c4")),  
+        ColorSequenceKeypoint.new(0.6, Color3.fromHex("1d79f2")),
+        ColorSequenceKeypoint.new(0.7, Color3.fromHex("076bed")),
+        ColorSequenceKeypoint.new(0.8, Color3.fromHex("0741ed")),
+        ColorSequenceKeypoint.new(0.9, Color3.fromHex("0712ed")),
+        ColorSequenceKeypoint.new(1, Color3.fromHex("040d85")),
+      }
+    }
+    return colors
+  end,
+  ["UIColors"] = {
+    [1] = {
+      Name = "Night Sky",
+      Accent = "#0d1b2a",         -- (1)
+      Outline = "#0077be",        -- (2)
+      Text = "#FFFFFF",           -- (3)
+      Text2 = "#87CEFA",          -- (4)
+      PlaceholderText = "#5c6b73" -- (5)
+    },
+    [2] = {
+      Name = "Blue Sky",
+      Accent = "#77dded",         -- (1)
+      Outline = "#0077be",        -- (2)
+      Text = "#FFFFFF",           -- (3)
+      Text2 = "#87CEFA",          -- (4)
+      PlaceholderText = "#5c6b73" -- (5)
+    },
+    [3] = {
+      Name = "Orange",
+      Accent = "#f79b3e",         -- (1)
+      Outline = "#a1680b",        -- (2)
+      Text = "#FFFFFF",           -- (3)
+      Text2 = "#f58d5d",          -- (4)
+      PlaceholderText = "#73625c" -- (5)
+    },
+    [4] = {
+      Name = "Green",
+      Accent = "#62ff59",         -- (1)
+      Outline = "#10a10b",        -- (2)
+      Text = "#FFFFFF",           -- (3)
+      Text2 = "#718c70",          -- (4)
+      PlaceholderText = "#73625c" -- (5)
+    },
+    [5] = {
+      Name = "Void Dark",
+      Accent = "#000000",         -- (1)
+      Outline = "#d6d6d6",        -- (2)
+      Text = "#FFFFFF",           -- (3)
+      Text2 = "#c9c8c7",          -- (4)
+      PlaceholderText = "#73625c" -- (5)
+    },    
+  },
+}
+
+return userdata
